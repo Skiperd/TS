@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  background: black;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+  background: white;
+  border-radius: 5px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+.form-fields input {
+  padding: 5px 0px;
+  outline: none;
+}
+
+.form-fields input::placeholder {
+  padding-left: 5px;
+}
+
+.form .error-message {
+  display: none;
+  font-size: 9px;
+  padding: 5px 0;
+  color: red;
+  font-style: italic;
+}
+
+.form .show-error-message .error-message {
+  display: block;
+}
+
+.form button {
+  display: flex;
+  align-self: flex-start;
+  background: #007fff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.form label {
+  color: gray;
+}
